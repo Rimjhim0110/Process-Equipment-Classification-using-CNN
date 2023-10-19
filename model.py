@@ -4,13 +4,13 @@ from keras.layers.convolutional import Conv2D, MaxPooling2D
 
 def CNNmodel(num_classes):
     """
-    Create a Convolutional Neural Network (CNN) model for a symbol classification task.
+    Create a Convolutional Neural Network (CNN) model for a symbol classification task
 
     Parameters:
-    num_classes (int): Number of symbol classes.
+    num_classes (int): Number of symbol classes
 
     Returns:
-    Sequential: Compiled CNN model.
+    Sequential: Compiled CNN model
     """
     model = Sequential()
 

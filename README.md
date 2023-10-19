@@ -2,10 +2,13 @@
 
 ## Dataset
 
+The dataset consists of 2432 instances of process equipment symbols used in P&IDs. After preprocessing and splitting the dataset, here is a summary of the dataset:
+
 | #Classes | #Train Images | #Validation Images | #Test Images |
 | :------: | :------: | :------: | :------: |
 | 30 | 1728 | 192 | 480 |
 
+![Sample Process Equipments](Images/sample_process_equipments.png)
 
 ## Citation
 

@@ -20,6 +20,10 @@ The following graph shows the number of images for each class of process equipme
 
 ## Results
 
+![Results](result.png)
+
+The classifier achieved an accuracy of **93.56%** on test dataset, demonstrating its ability to accurately identify process equipment symbols.
+
 ## Citation
 
 > E. Elyan, C.G. Moreno, and P. Johnston, “Symbols in Engineering Drawings (SiED): An Imbalanced Dataset Benchmarked by Convolutional Neural Networks,” In 2020 International Joint Conference of the 21st EANN (Engineering Applications of Neural Networks), EANN 2020. Proceedings of the International Neural Networks Society, vol 2. Springer, Cham, DOI [10.1007/978-3-030-48791-1_16]

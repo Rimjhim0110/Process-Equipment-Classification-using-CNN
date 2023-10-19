@@ -22,7 +22,7 @@ The following graph shows the number of images for each class of process equipme
 
 ![Results](result.png)
 
-The classifier achieved an accuracy of **93.56%** on test dataset, demonstrating its ability to accurately identify process equipment symbols.
+### Test Accuracy = **93.56%**
 
 ## Citation
 

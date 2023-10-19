@@ -1,21 +1,17 @@
 from keras.models import Sequential
-from keras.layers import Dense
-from keras.layers import Dropout
-from keras.layers import Flatten
-from keras.layers.convolutional import Conv2D
-from keras.layers.convolutional import MaxPooling2D
+from keras.layers import Dense, Dropout, Flatten
+from keras.layers.convolutional import Conv2D, MaxPooling2D
 
-
-def CNNmodel():
+def CNNmodel(num_classes):
     """
-    Function to create a CNN model for symbol classification
-    The model architecture consists of convolutional layers, max-pooling layers, and dense layers.
-    The model is compiled with the 'adam' optimizer and 'categorical_crossentropy' loss function.
+    Create a Convolutional Neural Network (CNN) model for a symbol classification task.
+
+    Parameters:
+    num_classes (int): Number of symbol classes.
 
     Returns:
-    A Keras Sequential model for symbol classification
+    Sequential: Compiled CNN model.
     """
-    
     model = Sequential()
 
     model.add(Conv2D(filters=32, kernel_size=(3,3), activation='relu', padding='same', input_shape=(100, 100, 1)))

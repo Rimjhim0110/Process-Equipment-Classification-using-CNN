@@ -6,7 +6,15 @@ from keras.utils import np_utils
 
 def encode_classes(y_train, y_test):
     """
-    Encode symbol classes using LabelEncoder.
+    Encode symbol classes using LabelEncoder
+
+    Parameters:
+    y_train (ndarray): Training labels
+    y_test (ndarray): Test labels
+
+    Returns:
+    y_train (ndarray): Encoded training labels
+    y_test (ndarray): Encoded test labels
     """
     l = LabelEncoder()
     l.fit(y_train)
@@ -17,7 +25,10 @@ def encode_classes(y_train, y_test):
     
 def load_data(data_file):
     """
-    Load and preprocess data from a CSV file, and split it into training and test sets.
+    Load and preprocess data from a CSV file, and split it into training and test sets
+    
+    Parameters:
+    data_file (str): Path to the CSV data file
     """
     df = pd.read_csv(data_file, names=[i for i in range(1, 10002)])
     

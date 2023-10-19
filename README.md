@@ -2,9 +2,9 @@
 
 ## Dataset
 
-| #Classes | #Training Images | #Test Images |
-| :------: | :------: | :------: |
-| 30 | 1920 | 480 |
+| #Classes | #Train Images | #Validation Images | #Test Images |
+| :------: | :------: | :------: | :------: |
+| 30 | 1728 | 192 | 480 |
 
 
 ## Citation

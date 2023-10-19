@@ -1,5 +1,5 @@
 import numpy as np
-from preprocessing import load_data
+from data import load_data
 from model import CNNmodel
 
 def train_model(data_file):

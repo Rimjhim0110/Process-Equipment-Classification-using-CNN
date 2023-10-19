@@ -22,4 +22,4 @@ def train_model(data_file):
     print('Train loss:', score[0])
     print('Train accuracy:', score[1])
 
-    return model
+    return model, results, X_test, y_test

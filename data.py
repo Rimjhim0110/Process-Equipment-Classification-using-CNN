@@ -1,8 +1,8 @@
 import pandas as pd
 import numpy as np
+import keras.utils 
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
-from keras.utils import np_utils
 
 def encode_classes(y_train, y_test):
     """
@@ -47,8 +47,8 @@ def load_data(data_file):
     
     y_train, y_test = encode_classes(y_train,y_test) 
 
-    y_train = np_utils.to_categorical(y_train)
-    y_test = np_utils.to_categorical(y_test)
+    y_train = keras.utils.to_categorical(y_train)
+    y_test = keras.utils.to_categorical(y_test)
 
     # Validation set
     for _ in range(5): 

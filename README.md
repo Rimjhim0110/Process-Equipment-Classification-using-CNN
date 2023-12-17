@@ -1,4 +1,5 @@
 # Process Equipment Classification using CNN
+This project focuses on classifying process equipment symbols commonly found in Piping and Instrumentation Diagrams (P&IDs) using Convolutional Neural Networks (CNNs). 
 
 ## Dataset
 
